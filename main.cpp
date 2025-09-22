@@ -8,7 +8,9 @@ int main()
     int a, b;
     cin >> a >> b;
     cout << "A + B = " << a + b << endl;
+    cout << "A - B = " << a - b << endl;
     cout << "A * B = " << a * b << endl;
     cout << "A / B = " << a / b << endl;
+    << "Max = " << max(a, b) << '\n' endl;
     return 0;
 }
